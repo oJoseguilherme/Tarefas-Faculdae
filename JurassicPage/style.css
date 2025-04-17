@@ -1,0 +1,179 @@
+* { margin: 0;
+}
+
+body{ 
+    background-color: #123123;
+}
+
+.containerTopo{
+    width: 900px;
+    height: 200px;
+     background-image: url("jp_topoFundo.jpg");
+     margin: 0 auto;
+}
+.imgLogo{ 
+position: relative;
+top: 20px;
+left: 40px;
+
+}
+.containerMenu {
+    width: 400px;
+    height: 40px;
+    background-image: url("jp_menuFundo.jpg");
+
+    position: relative;
+    top: -80px;
+    left: 325px;
+
+    border: 2px solid #FFFFFF;
+    border-radius: 20px 0px 20px 0px;
+    text-align: center;
+    line-height: 40px;
+    color: #FFFFFF;
+
+    box-shadow: 0px 0px 25px #123123;
+}
+
+.linkMenu,
+.linkSeparate{ 
+    text-decoration: none;
+    font-family: Arial;
+    color: #FFFFFF;
+    font-weight: bold; 
+    font-size: 20px;
+    text-shadow: 2px 2px #123123;
+
+}
+
+.linkMenu:hover{
+    text-decoration: underline;
+}
+
+.containerPaginaTitulo{ 
+    width: 900px;
+    height: 100px;
+    background-color: #550000;
+    text-align: center;
+    margin: 0 auto;
+   
+    position: relative;
+   line-height: 100px;
+
+}
+@font-face {
+    font-family:JurassicFont;
+    src: url("jp_fontJurassicPark.ttf");
+}
+.tituloPagina{ 
+    letter-spacing: 4px;
+    color: #FFFFFF;
+    font-family: JurassicFont;
+    font-size: 60px;
+}
+.filme1{
+    background-color: #FFFFFF;
+    width: 900px;
+    height: 300px;
+    margin: 0 auto;
+}
+.filme1Img{ 
+    float: left;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    border: solid 5px #ff000f;
+}
+.tituloFilme1{
+    position: relative;
+    top: 50px;
+    left: 90px;
+    margin: 0;
+
+}
+.filme1Conteudo{ 
+    width: 750px;
+    position: relative;
+    top: 50px;
+    left: 90px;
+}
+p{
+    margin-top: 15px;
+}
+
+.filme2{
+    background-color: #444444;
+    width: 900px;
+    height: 300px;
+    margin: 0 auto;
+}
+.filme2Img{ 
+    float: right;
+    position: relative;
+    top: 50px;
+    right: 50px;
+    border: solid 5px yellow;
+}
+.tituloFilme2{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    margin: 0;
+    color: #FFFFFF;
+
+}
+.filme2Conteudo{ 
+    width: 600px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    color: #FFFFFF;
+}
+.Premios{ 
+width: 900px;
+height: 400px;
+background-image: url("jp_fundoSelva.jpg");
+margin: 0 auto;
+background-attachment: fixed;
+text-align: center;
+}
+.premiosTitulo{ 
+    color: #FFFFFF;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+}
+.tablePremios{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    top: 80px;
+    margin: 0 auto;
+}
+.thTable{
+    background-color: #333333;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.trTable:nth-child(even) {
+    background-color: #999;
+}
+.trTable1:nth-child(odd) {
+    background-color: #dddd00;
+}
+.rodape{
+    background-image: url(jp_topoFundo.jpg);
+    width: 900px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 50px;
+    
+}
+.rodapeTxt{
+    margin-top: 0px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: Arial;
+    text-shadow: 2px 2px #123123;
+}
